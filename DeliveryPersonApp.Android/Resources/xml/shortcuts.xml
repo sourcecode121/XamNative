@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut
+    android:shortcutId="registerShortcut"
+    android:enabled="true"
+    android:shortcutShortLabel="@string/shortcut_short"
+    android:shortcutLongLabel="@string/shortcut_long">
+    <intent
+      android:targetClass="DeliveryPersonApp.Android.DeliveryPersonApp.Android.MainActivity"
+      android:targetPackage="DeliveryPersonApp.Android.DeliveryPersonApp.Android"
+      android:action="android.intent.action.VIEW"
+      android:data="register"/>
+    <categories android:name="android.shortcut.conversation"/>
+  </shortcut>
+</shortcuts>
